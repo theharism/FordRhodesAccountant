@@ -8,7 +8,7 @@ const Bannerservices = () => {
             <div className="hero-background">
                 <video
                     className="hero-video"
-                    src="/https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746969868/tcqctw83ul6h9qis2kna.mov"
+                    src="https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746969868/tcqctw83ul6h9qis2kna.mov"
                     autoPlay
                     loop
                     muted

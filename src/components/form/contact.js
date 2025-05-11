@@ -46,7 +46,7 @@ const ContactForms = () => {
             justifyContent: 'center',
             backgroundColor: '#000'
         }}>
-            <video src="/https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746969886/xhbjlp44p2h1tbpzvzvs.mov" autoPlay loop muted playsInline style={{
+            <video src="https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746969886/xhbjlp44p2h1tbpzvzvs.mov" autoPlay loop muted playsInline style={{
                 position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
                 objectFit: 'cover', zIndex: 0
             }} />

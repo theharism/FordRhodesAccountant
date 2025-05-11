@@ -98,7 +98,7 @@ const page = () => {
                 position: 'relative',
             }}>
                 <video
-                    src="/https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746969898/okhivwvi3nz6fag5evfk.mov"
+                    src="https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746969898/okhivwvi3nz6fag5evfk.mov"
                     autoPlay
                     loop
                     muted
@@ -182,7 +182,7 @@ Our Client Reviews           </h1>
                     muted
                     playsInline
                 >
-                    <source src="/https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746976208/testimonials_thrzp3.mov" type="video/mp4" />
+                    <source src="https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746976208/testimonials_thrzp3.mov" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 

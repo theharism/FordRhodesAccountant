@@ -18,7 +18,7 @@ const CallToActionSection = () => {
                     muted
                     playsInline
                 >
-                    <source src="/https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746975543/nature4_lzgl6d.mov" type="video/mp4" />
+                    <source src="https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746975543/nature4_lzgl6d.mov" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 

@@ -217,7 +217,7 @@ const page = () => {
                 position: 'relative',
             }}>
                 <video
-                    src="/https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746969761/bpajkgxetzndnmcqh0m7.mov"
+                    src="https://res.cloudinary.com/dmtqk6d1r/video/upload/v1746969761/bpajkgxetzndnmcqh0m7.mov"
                     autoPlay
                     loop
                     muted
