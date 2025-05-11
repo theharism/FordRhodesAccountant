@@ -73,7 +73,7 @@ const page = () => {
     position: 'relative',
     width: '100%',
     minHeight: '500px',
-    backgroundImage: 'url(/https://res.cloudinary.com/dmtqk6d1r/image/upload/v1746980007/image_fekgu3.png)',
+    backgroundImage: 'url(https://res.cloudinary.com/dmtqk6d1r/image/upload/v1746980007/image_fekgu3.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
