@@ -1,0 +1,175 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.active {
+    color: #0066cc; /* or your preferred active color */
+    font-weight: bold;
+}
+
+/* Header Container */
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Flex Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* Navigation Menu */
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-menu a {
+    color: #002b5c;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #0071bc;
+}
+
+.nav-menu a.active {
+    color: #0066cc; /* or whatever your intended "active" color is */
+    font-weight: bold;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown span {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none !important;
+    /* CHANGED THIS ↓↓↓ */
+    flex-direction: column; /* <-- Remove or ignore this line */
+    min-width: 180px;
+    z-index: 999;
+    padding: 5px 0;
+    text-align: left; /* make sure links align left */
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+
+
+.dropdown-menu li {
+    padding: 10px 15px;
+    white-space: nowrap;
+}
+
+.dropdown-menu li a {
+    color: #002b5c;
+    font-weight: 400;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+/* Get in Touch Button */
+.get-in-touch .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #002b5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.get-in-touch .cta-button:hover {
+    background-color: #001e47;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #fff;
+        width: 100%;
+        display: none;
+        margin-top: 10px;
+    }
+
+    .nav-menu ul.show {
+        display: flex;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        border: none;
+        box-shadow: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown.open .dropdown-menu {
+        display: flex;
+    }
+}
+.text-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #002b5c;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
+}
+
+.text-logo:hover {
+    color: #0071bc;
+}
